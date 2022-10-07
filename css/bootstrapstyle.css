@@ -50,13 +50,37 @@ body {
 .nav-link{
     padding-top: 22px;
     color: var(--color-darkest-gray-ever);
+}
 
-
+.button {
+    color: white;
+    border-radius: 50%;
+    min-height: 125px;
+    min-width: 125px;
+    border: white solid 10px;
 }
 
 .flex{
     display: flex;
 }
+
+#DESIGN {
+    background-color: var(--color-red);
+}
+
+#DEVELOP {
+    background-color: var(--color-blazin-orange);
+}
+
+#SUPPORT {
+    background-color: var(--color-kermit-green);
+}
+
+#HOST {
+    background-color: var(--color-little-mermaid-blue);
+}
+
+
 @media (min-width: 992px){
     #title{
         display: inline;
