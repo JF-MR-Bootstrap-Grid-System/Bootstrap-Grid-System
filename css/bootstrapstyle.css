@@ -5,8 +5,40 @@
     --color-kermit-green: #7CB06C;
     --color-little-mermaid-blue: #00ABA9;
     --color-boring-white: #F0F0F0;
+    --color-darkest-gray-ever: #C27F390;
 }
 
 body {
-    background-color: var(--color-gray);
+    background-color: var(--color-boring-white);
+}
+
+.nav-icon{
+    height: 105px;
+    width: 105px;
+}
+
+#hamburger-btn{
+    padding: .1em;
+    border: var(--color-gray) solid 2px;
+    height: 50px;
+    width: 75px;
+}
+
+.navbar-toggler-icon{
+    /*width: 105px;*/
+    /*height: 105px;*/
+}
+
+#title {
+    display: none;
+}
+
+.nav-link{
+    color: var(--color-darkest-gray-ever);
+}
+
+@media (min-width: 425px){
+    #title{
+        display: inline;
+    }
 }
