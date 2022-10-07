@@ -6,6 +6,7 @@
     --color-little-mermaid-blue: #00ABA9;
     --color-boring-white: #F0F0F0;
     --color-darkest-gray-ever: #C27F390;
+    --color-title-gray: #393D40
 }
 
 body {
@@ -31,13 +32,18 @@ body {
 
 #title {
     display: none;
+    color: var(--color-title-gray);
+    align-self: center;
 }
 
 .nav-link{
     color: var(--color-darkest-gray-ever);
 }
 
-@media (min-width: 425px){
+.flex{
+    display: flex;
+}
+@media (min-width: 992px){
     #title{
         display: inline;
     }
