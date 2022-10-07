@@ -1,0 +1,12 @@
+*{
+    --color-gray: #E6E6E6;
+    --color-red: #E6563B;
+    --color-blazin-orange: #EB9D3A;
+    --color-kermit-green: #7CB06C;
+    --color-little-mermaid-blue: #00ABA9;
+    --color-boring-white: #F0F0F0;
+}
+
+body {
+    background-color: var(--color-gray);
+}
