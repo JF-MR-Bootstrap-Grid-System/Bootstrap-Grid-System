@@ -58,6 +58,8 @@ body {
     min-height: 125px;
     min-width: 125px;
     border: white solid 10px;
+    font-weight: bolder;
+    margin: 1em;
 }
 
 .flex{
@@ -80,11 +82,19 @@ body {
     background-color: var(--color-little-mermaid-blue);
 }
 
+.header-stuff{
+    margin: 1em;
+}
 
 @media (min-width: 992px){
     #title{
         display: inline;
         font-size: 1.8em;
-
+    }
+    #button-group-1{
+        display: inline;
+    }
+    #button-group-2{
+        display: inline;
     }
 }
