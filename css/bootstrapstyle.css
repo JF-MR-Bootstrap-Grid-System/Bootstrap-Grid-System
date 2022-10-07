@@ -9,6 +9,14 @@
     --color-title-gray: #393D40
 }
 
+.ABEL {
+    font-family: "ABEL";
+}
+
+.ANTON {
+    font-family: "ANTON";
+}
+
 body {
     background-color: var(--color-boring-white);
 }
@@ -32,12 +40,18 @@ body {
 
 #title {
     display: none;
-    color: var(--color-title-gray);
+    color: black;
+    font-weight: bold;
     align-self: center;
+    margin-left: 20px;
+
 }
 
 .nav-link{
+    padding-top: 22px;
     color: var(--color-darkest-gray-ever);
+
+
 }
 
 .flex{
@@ -46,5 +60,7 @@ body {
 @media (min-width: 992px){
     #title{
         display: inline;
+        font-size: 1.8em;
+
     }
 }
