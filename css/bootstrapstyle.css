@@ -93,32 +93,44 @@ body {
 .feature-description{
     display: inline;
     margin: 0;
-    padding-top: 6px;
+    padding-top: 6px; padding-bottom: 6px;
 }
 
 .description-container{
     display: flex;
 }
 
-.feature-btn{
-
+.feature-btn {
+    color: black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-weight: bolder;
+    margin-left: 5px;
+    padding: 5px;
+    justify-self: flex-end;
 }
 
 .develop-btn{
-
+    background-color: var(--color-red);
 }
 
 .design-btn{
-
+    background-color: var(--color-blazin-orange);
 }
 
 .support-btn{
-
+    background-color: var(--color-kermit-green);
 }
 
 .host-btn{
+    background-color: var(--color-little-mermaid-blue);
+}
+
+.feature-row {
 
 }
+
 @media (min-width: 992px){
     #title{
         display: inline;
