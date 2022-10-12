@@ -1,3 +1,7 @@
+/* Stylesheet for Bootstrap Grid System Paired Programming
+
+This styling is responsive, with three media query sections near the end of this file*/
+
 *{
     --color-gray: #E6E6E6;
     --color-red: #E6563B;
